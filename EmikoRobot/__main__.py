@@ -436,7 +436,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_support":
         query.message.edit_text(
             text="*๏ GabutProtection support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Emiko.",
+            "\nJoin My Support Group/Channel for see or report a problem on GabutProtection.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -456,7 +456,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_credit":
         query.message.edit_text(
             text=f"๏ Credis for GabutProtection\n"
-            "\nHere Developers Making And Give Inspiration For Made The EmikoRobot",
+            "\nHere Developers Making And Give Inspiration For Made The GabutProtection",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
