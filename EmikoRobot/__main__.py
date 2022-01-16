@@ -368,7 +368,7 @@ def emiko_about_callback(update, context):
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
             "\n\n_GabutProtection's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for EmikoRobot.",
+            "\n\n Click on button bellow to get basic help for GabutProtection.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="t.me/Rommelxx"),
+                    InlineKeyboardButton(text="Source Code", url="https://t.me/Rommelxx"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -441,7 +441,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/gabutjoinsini),
+                    InlineKeyboardButton(text="Support", url="https://t.me/gabutjoinsini"),
                     InlineKeyboardButton(text="Updates", url="https://t.me/Cari_Teman_Asiik"),
                  ],
                  [
@@ -462,7 +462,7 @@ def emiko_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Rommel", url="https://t.me/Rommelxx"),
-                    InlineKeyboardButton(text="Tata", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="Tata", url="https://t.me/xynrlz"),
                  ],
                  [
                     InlineKeyboardButton(text="Gabutt", url="https://t.me/gabutjoinsini"),
@@ -737,7 +737,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784:
+        if OWNER_ID != 5026724313:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
