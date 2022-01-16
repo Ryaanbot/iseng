@@ -4,10 +4,10 @@ from telegram.ext.filters import Filters
 from telegram import Update, message, ParseMode
 from telegram.ext import CallbackContext
 
-from SiestaRobot.modules.helper_funcs.decorators import siestacmd, siestamsg
-from SiestaRobot.modules.helper_funcs.channel_mode import user_admin, AdminPerms
-from SiestaRobot.modules.sql.antichannel_sql import antichannel_status, disable_antichannel, enable_antichannel
-from SiestaRobot.modules.language import gs
+from EmikoRobot.modules.helper_funcs.decorators import siestacmd, siestamsg
+from EmikoRobot.modules.helper_funcs.channel_mode import user_admin, AdminPerms
+from EmikoRobot.modules.sql.antichannel_sql import antichannel_status, disable_antichannel, enable_antichannel
+from EmikoRobot.modules.language import gs
 
 @siestacmd(command="antichannelmode", group=100)
 @user_admin(AdminPerms.CAN_RESTRICT_MEMBERS)
