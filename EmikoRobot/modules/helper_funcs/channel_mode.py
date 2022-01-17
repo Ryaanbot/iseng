@@ -7,7 +7,7 @@ from telegram.inline.inlinekeyboardbutton import InlineKeyboardButton
 from telegram.inline.inlinekeyboardmarkup import InlineKeyboardMarkup
 
 from EmikoRobot import DRAGONS, DEV_USERS, dispatcher
-from SiestaRobot.modules.helper_funcs.decorators import siestacallback
+from EmikoRobot.modules.helper_funcs.decorators import emikocallback
 
 
 class AdminPerms(Enum):
