@@ -7,7 +7,6 @@ from telegram.ext import CallbackContext
 from EmikoRobot.modules.helper_funcs.decorators import emikocmd, emikomsg
 from EmikoRobot.modules.helper_funcs.channel_mode import user_admin, AdminPerms
 from EmikoRobot.modules.sql.antichannel_sql import antichannel_status, disable_antichannel, enable_antichannel
-from EmikoRobot.modules.language import gs
 
 @emikocmd(command="antichannelmode", group=100)
 @user_admin(AdminPerms.CAN_RESTRICT_MEMBERS)
