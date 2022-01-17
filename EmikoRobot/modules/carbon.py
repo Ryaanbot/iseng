@@ -46,7 +46,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "Group Utama", url="https://t.me/gabutjoinsini"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/Cari_TemanAsiik")
+                        "Support", url="https://t.me/Cari_Teman_Asiik")
                 ]
             ]
         )
