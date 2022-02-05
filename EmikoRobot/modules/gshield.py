@@ -122,7 +122,7 @@ async def profanity(event):
     if event.fwd_from:
         return
     if not event.is_group:
-        await event.reply("You Can Only profanity in Groups.")
+        await event.reply("Kamu Dilarang Menggunakan Kata Itu Disini")
         return
     event.pattern_match.group(1)
     if not await is_admin(event, BOT_ID):
