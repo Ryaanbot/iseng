@@ -82,7 +82,7 @@ async def detect_nsfw(_, message):
         return
     await message.reply_text(
         f"""
-**Boss Liat Ada yang bandel @xynrlz @Rommelxx!
+**Boss Liat Ada yang bandel @yxnrlz @Rommelxx!
 ————————————————————**
 **User:** {message.from_user.mention} [`{message.from_user.id}`]
 **Safe:** `{results.neutral} %`
