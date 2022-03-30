@@ -10,7 +10,7 @@
       ],
     
    "logo":    "https://telegra.ph/file/35e56ba7eace7332356ad.jpg",  
-   "repository": "https://github.com/Ryaanbot/https://github.com/Ryaanbot/isengajah",
+   "repository": "https://github.com/kennedy-ex/https://github.com/kennedy-ex/EmikoRobot",
    "addons": [
           {
          "options": {
@@ -131,7 +131,7 @@
          "required": false,
          "value": ""
      },
-        "ARQ_API": {
+        "ARQ_API_KEY": {
             "description": "Get this from @ARQRobot.",
             "required": true
         },
@@ -206,15 +206,6 @@
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
          "value": "True"
-      },
-        "ARQ_API": {
-            "description": "Get this from @ARQRobot.",
-            "required": true
-        },
-      "BAN_STICKER": {
-         "description": "ID of the sticker you want to use when banning people.",
-         "required": false,
-         "value": ""
       },
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
