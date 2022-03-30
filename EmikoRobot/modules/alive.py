@@ -11,14 +11,20 @@ from EmikoRobot import telethn as tbot
 
 PHOTO = "https://telegra.ph/file/e7bbf0185b5c52e281681.jpg"
 
+
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm GabutProtection.** \n\n"
-  TEXT += "⚪ **I'm Working Properly** \n\n"
-  TEXT += f"⚪ **Bos Besar : [Rommel-xx](https://t.me/Rommelxx)** \n\n"
-  TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
-  TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
-  TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
-  TEXT += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("Owner", "https://t.me/Rommelxx"), Button.url("Support", "https://t.me/gabutjoinsini")]]
-  await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
+    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm GabutProtection.** \n\n"
+    TEXT += "⚪ **I'm Working Properly** \n\n"
+    TEXT += f"⚪ **Bos Besar : [Rommel-xx](https://t.me/Rommelxx)** \n\n"
+    TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
+    TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
+    TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
+    TEXT += "**Thanks For Adding Me Here ❤️**"
+    BUTTON = [
+        [
+            Button.url("Owner", "https://t.me/Rommelxx"),
+            Button.url("Support", "https://t.me/gabutjoinsini"),
+        ]
+    ]
+    await tbot.send_file(event.chat_id, PHOTO, caption=TEXT, buttons=BUTTON)
